@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Examen Joaquin Alvarez</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--css mio-->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+      <header class="container ">
+          <h1>Frases celebres</h1>
+      </header>
+      <!--ALBERT EINSTEIN-->
+      <div class="container">
+          <div class="row">
+              <!--foto-->
+              <div class="col-12 col-md-3">
+                  <img src="img/albert.jpg">
+              </div>
+              <!--wikipedia-->
+              <div class="col-12 col-md-9">
+                  <h2>ALBERT EINSTEIN</h2>
+                  <h3>Albert Einstein fue un físico alemán de origen judío, nacionalizado después suizo, austriaco y estadounidense. Se lo considera el científico más importante, conocido y popular del siglo XX.​​</h3>
+                  <p>Fecha de nacimiento: 14 de marzo de 1879, Ulm, Alemania
+                        Fallecimiento: 18 de abril de 1955, Princeton Medical Center, Nueva Jersey, Estados Unidos
+                        Residencia: Einsteinhaus, Alemania, Múnich y Princeton
+                        Cónyuge: Elsa Einstein (m. 1919–1936), Mileva Marić (m. 1903–1919)</p>
+              </div>
+              <!--frases-->
+              <div class="col-12 col-md-2">
+                    <button onclick="albert()" id="albert">Frases</button>
+              </div>
+              <div class="col-md-10" id="uno">
+              </div>
+         </div>
+        </div>
+
+          <!--HASTA AQUI LO DEL FISICO-->
+
+          <!--AHORA LO DEL COMICO-->
+
+          <div class="container">
+              <div class="row">
+                <!--wikipedia-->
+                <div class="col-12 col-md-9">
+                    <h2>GROUCHO MARX</h2>
+                    <h3>Julius Henry Marx, más conocido como Groucho Marx, fue un actor, humorista y escritor estadounidense, conocido principalmente por ser uno de los miembros de los hermanos Marx.</h3>
+                    <p>Fecha de nacimiento: 2 de octubre de 1890, Nueva York, Nueva York, Estados Unidos
+                            Fallecimiento: 19 de agosto de 1977, Cedars-Sinai Medical Center, Los Ángeles, California, Estados Unidos
+                            Entierro: Eden Memorial Park, Los Ángeles, California, Estados Unidos
+                            Premios Óscar: Óscar honorífico en 1974
+                            Películas y programas de televisión: You Bet Your Life, MÁS</p>
+                </div>
+
+                <!--foto-->
+                  <div class="col-12 col-md-3">
+                      <img src="img/groucho.jpg">
+                  </div>
+
+                  <!--frases-->
+                    <div class="col-md-10" id="dos"></div>
+                    <div class="col-md-2">
+                            <button onclick="groucho()" id="groucho">Frases</button>
+                      </div>
+               </div>
+           </div>
+</div>
+
+ <footer>
+     <p id="pie">Joaquin Alvarez. todos los derechos reservados</p>
+ </footer>
+
+
+
+
+
+
+
+
+
+    
+   
+    
+    <script>
+    
+    var fisico=['Locura es hacer lo mismo una y otra vez esperando obtener resultados diferentes','Si no lo puedes explicar de forma simple, no lo entiendes suficientemente bien.','Hay dos cosas infinitas: el universo y la estupidez humana. Y del universo no estoy seguro.']
+    var comico=['Damas y caballeros, estos son mis principios. Si no les gustan tengo otros',' Debo confesar que nací a una edad muy temprana','Es mejor estar callado y parecer tonto, que hablar y despejar las dudas definitivamente']
+
+
+    function albert()
+    {
+        var ale=Math.floor(Math.random()*(fisico.length))
+        document.getElementById('uno').innerHTML=fisico[ale]
+    }
+    albert()
+    
+    function groucho()
+    {
+        var alea=Math.floor(Math.random()*(comico.length)) 
+        document.getElementById('dos').innerHTML=comico[alea]
+    }
+    groucho()
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
