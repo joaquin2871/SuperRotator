@@ -1,0 +1,210 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    background: rgb(235, 190, 190);
+}
+strong{
+    font-style: italic;
+}
+img{
+    display: block;
+    width: 250px;
+    margin:auto;
+    height: 200px;
+    border:5px solid rgb(2, 2, 27);
+    margin-top:25px;
+    margin-bottom: 15px;
+    border-radius:10px;
+    box-shadow: 2px 4px 8px rgb(26, 26, 87);
+
+}
+
+nav img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin:15px auto;
+    border:3px solid;
+    
+}
+    
+nav a{
+    display: block;
+    text-align: center;
+    margin: 15px auto;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(1, 1, 17);
+}
+
+ a:hover{
+    font-size: 18px;
+    color:brown
+}
+
+.volver{
+    text-decoration: underline;
+    
+   }
+
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color:brown;
+    padding: 20px;
+    letter-spacing: 22px;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 3px rgb(26, 26, 87);
+   
+   
+}
+
+h2{
+    text-align: center;
+    font-family: fantasy;
+    padding: 15px;
+    letter-spacing: 10px;
+    font-style: italic;
+    color:brown;
+    font-size: 24px;
+    text-decoration: underline;
+
+}
+
+h3{
+    text-align: center;
+    padding: 30px;
+    font-size: 18px;
+}
+
+p{
+    font-size: 16px;
+    font-style: italic;
+   
+}
+
+#albert,#cervantes,#lorca,#quevedo,#churchil,#groucho,#lope,#machado,#hemin,#napoleon,#newton,#arquimedes{
+    width: 100%;
+    text-align: center;
+   margin-right: 25px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 2px;
+    border:1px solid rgb(22, 22, 21);
+    border-radius:4px;
+    background:rgb(109, 112, 114); 
+    color:rgb(236, 236, 243);
+}
+
+#uno,#dos,#tres,#cuatro,#cinco,#seis,#siete,#ocho,#nueve,#diez,#once,#doce{
+    text-align: center;
+    font-size: 26px;
+    font-family:georgia;
+    padding: 10px;
+    color:rgb(6, 6, 90);
+    font-weight: bold;
+    background: rgb(191, 196, 197);
+    margin-bottom: 15px;
+    font-style: italic;
+    text-shadow:1px 1px 2px rgb(24, 23, 23);
+    letter-spacing: 4px;
+}
+
+
+    #albert:hover{
+        background: rgb(155, 197, 151);
+        color:brown;
+        font-size: 18px;
+        font-weight: bold;
+    }
+     #groucho:hover{
+        background: rgb(155, 197, 151);
+        color:brown;
+        font-size: 18px;
+        font-weight: bold;
+    }
+     #cervantes:hover{
+        background: rgb(155, 197, 151);
+        color:brown;
+        font-size: 18px;
+        font-weight: bold;
+    }
+     #lope:hover{
+        background: rgb(155, 197, 151);
+        color:brown;
+        font-size: 18px;
+        font-weight: bold;
+    }
+     #lorca:hover{
+        background: rgb(155, 197, 151);
+        color:brown;
+        font-size: 18px;
+        font-weight: bold;
+    }
+     #machado:hover{
+        background: rgb(155, 197, 151);
+        color:brown;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    #quevedo:hover{
+        background: rgb(155, 197, 151);
+        color:brown;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    #hemin:hover{
+        background: rgb(155, 197, 151);
+        color:brown;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    #churchil:hover{
+        background: rgb(155, 197, 151);
+        color:brown;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    #napoleon:hover{
+        background: rgb(155, 197, 151);
+        color:brown;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    #newton:hover{
+        background: rgb(155, 197, 151);
+        color:brown;
+        font-size: 18px;
+        font-weight: bold; 
+    }
+
+    #arquimedes:hover{
+        background: rgb(155, 197, 151);
+        color:brown;
+        font-size: 18px;
+        font-weight: bold; 
+    }
+
+
+    #pie{
+    text-align: center;
+    background: #000;
+    color:white;
+    padding: 15px;
+    margin-bottom: 0;
+   }
+
+#federico,#vega,#antonio,#francisco,#miguel,#marx,#einstein,#ernest,#winston,#napo,#isaac,#eureka{
+    border-top:2px solid black;
+    padding: 15px;
+}
+
+
+
